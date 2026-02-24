@@ -1,0 +1,65 @@
+{
+  "server_info": {
+    "version": false
+  },
+  "features": {
+    "auto_reconnect": true,
+    "accept_resource_pack": true,
+    "combat_self_defense": true,
+    "auto_sleep": true,
+    "solve_math_captcha": true,
+    "auto_eat": true,
+    "auto_equip": true,
+    "auto_stash": true,
+    "auto_food_source": true,
+    "explosive_avoidance": true
+  },
+  "auth_settings": {
+    "register_cmd": "/register {pass} {pass}",
+    "login_cmd": "/login {pass}"
+  },
+  "entry_settings": {
+    "move_forward_seconds": 3,
+    "chat_delay_seconds": 2,
+    "first_time_message": "Hello from AFK Bot"
+  },
+  "reconnect": {
+    "base_delay_ms": 15000,
+    "transient_delay_ms": 5000,
+    "max_delay_ms": 300000,
+    "multiplier": 2
+  },
+  "combat": {
+    "flee_health": 6,
+    "attack_reach": 3.5,
+    "scan_range": 6
+  },
+  "stash": {
+    "search_radius": 16,
+    "interval_ms": 60000,
+    "keep_food": true,
+    "keep_tools": true,
+    "keep_armor": true
+  },
+  "food": {
+    "hunger_threshold": 14,
+    "chest_search_radius": 16,
+    "hunt_radius": 16,
+    "min_food_slots": 4
+  },
+  "explosive_avoidance": {
+    "flee_radius": 8,
+    "safe_radius": 16
+  },
+  "afk": {
+    "interval_ms": 15000,
+    "wander_radius": 32
+  },
+  "dashboard": {
+    "port": 8999,
+    "title": "Cobelix AFK Bot"
+  },
+  "messages": [
+    "Welcome to Cobelix AFK Bot System"
+  ]
+}

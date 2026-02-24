@@ -1,0 +1,27 @@
+{
+  "name": "cobelix-afk-bot",
+  "version": "4.2.1",
+  "description": "Cobelix AFK Bot with Web Dashboard — Made by Cobelix Team",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "node scripts/postinstall.js",
+    "cleanup": "node scripts/postinstall.js"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "dotenv": "^16.4.0",
+    "express": "^4.18.0",
+    "minecraft-data": "^3.71.0",
+    "mineflayer": "^4.20.0",
+    "mineflayer-armor-manager": "^2.0.1",
+    "mineflayer-auto-eat": "^5.0.3",
+    "mineflayer-pathfinder": "^2.4.0",
+    "prismarine-viewer": "^1.28.0",
+    "socket.io": "^4.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
